@@ -18,8 +18,8 @@ func init() {
 
 func updateTime() {
 	for {
-		curTime = time.Now()
 		time.Sleep(time.Second * 1)
+		curTime = time.Now()
 	}
 }
 
